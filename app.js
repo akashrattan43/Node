@@ -1,5 +1,3 @@
-var sayHello = function (name) {
-    console.log(name)
-}
+const log = require('./logger')
 
-sayHello('Akash')
+log('Message')
